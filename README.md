@@ -19,3 +19,20 @@ Stage 6 — Diffusion Model Architecture & Training
 Stage 7 — Anomaly Detection & Evaluation
         ↓
 Stage 8 — End-to-end Pipeline + Results
+
+
+# IoT Time Series Anomaly Detection with Diffusion Models
+
+Anomaly simulation and detection on the UCI Electricity Load Diagrams dataset
+using a Denoising Diffusion Probabilistic Model (DDPM).
+
+## Setup
+pip install -r requirements.txt
+
+## Data
+Download `LD2011_2014.txt` from https://archive.ics.uci.edu/dataset/321  
+Place it in `data/raw/`
+
+## Stages
+- 01 — EDA & Visualization
+- 02 — Preprocessing (coming soon)
