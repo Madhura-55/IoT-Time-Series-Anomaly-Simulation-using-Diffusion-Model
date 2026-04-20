@@ -1,1 +1,20 @@
+# Raw and processed data 
+data/
 
+# Model checkpoints
+outputs/models/
+*.pt
+*.pth
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Jupyter temp files
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
