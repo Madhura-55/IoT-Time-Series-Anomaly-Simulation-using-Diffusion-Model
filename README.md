@@ -1,30 +1,17 @@
-# IoT-Time-Series-Anomaly-Detection-using-Diffusion-Model-on-Smart-Grid-Data
+# IoT-Time-Series-Anomaly-Simulation-using-Diffusion-Model-on-Smart-Grid-Data
 
-complete Pipeline:
-
-Raw UCI Smart Grid Data
-        ↓
-Stage 1 — EDA & Visualization
-        ↓
-Stage 2 — Preprocessing & Feature Engineering
-        ↓
-Stage 3 — Core Time Series Processing (Decomposition, Stationarity)
-        ↓
-Stage 4 — Train/Test Split (time-aware)
-        ↓
-Stage 5 — Anomaly Simulation (inject synthetic anomalies)
-        ↓
-Stage 6 — Diffusion Model Architecture & Training
-        ↓
-Stage 7 — Anomaly Detection & Evaluation
-        ↓
-Stage 8 — End-to-end Pipeline + Results
-
-
-# IoT Time Series Anomaly Detection with Diffusion Models
-
-Anomaly simulation and detection on the UCI Electricity Load Diagrams dataset
+Anomaly simulation on the UCI Electricity Load Diagrams dataset
 using a Denoising Diffusion Probabilistic Model (DDPM).
+        
+Stage 1 → EDA, Visualization & Dataset Understanding
+Stage 2 → Preprocessing & Train/Test Split
+Stage 3 → Time Series Core Processing (Decomposition, Stationarity, etc.)
+Stage 4 → Model Selection & Architecture Design (Diffusion Model)
+Stage 5 → Training Loop
+Stage 6 → Evaluation & Metrics
+Stage 7 → Anomaly Simulation (Generation)
+
+
 
 ## Setup
 pip install -r requirements.txt
@@ -35,4 +22,4 @@ Place it in `data/raw/`
 
 ## Stages
 - 01 — EDA & Visualization
-- 02 — Preprocessing (coming soon)
+- 02 — 
