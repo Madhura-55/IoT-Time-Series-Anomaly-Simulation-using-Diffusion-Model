@@ -4,11 +4,6 @@ data/raw/
 # Parquet files (too large)
 artifacts/*.parquet
 
-# Model checkpoints
-outputs/models/
-*.pt
-*.pth
-
 # Python cache
 __pycache__/
 *.pyc
